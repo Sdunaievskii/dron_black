@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+}
+.container {
+  max-width: 1420px;
+}
+.color_upp {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.btn-mix {
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;
+  font-size: 18px;
+  padding: 20px 40px 20px 40px;
+  transform: skew(-20deg);
+  height: 65px;
+  cursor: pointer;
+}
+.btn-mix p {
+  transform: skew(20deg);
+}
+header .wrapper {
+  background: url("../img/background.png");
+}
+header .wrapper .header__menu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 170px;
+}
+header .wrapper .header__menu .header__menu-logo {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-top: 65px;
+  padding-left: 35px;
+  width: 20%;
+  box-sizing: border-box;
+}
+header .wrapper .header__menu .header__menu-center {
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 50%;
+  margin-top: 55px;
+}
+header .wrapper .header__menu .header__menu-center ul {
+  display: flex;
+  list-style-type: none;
+}
+header .wrapper .header__menu .header__menu-center ul li {
+  padding: 20px;
+  margin: 0 auto;
+}
+header .wrapper .header__menu .header__menu-center ul a {
+  text-decoration: none;
+  color: #ffffff;
+}
+header .wrapper .header__menu .header__menu-btn {
+  color: #ffffff;
+  text-transform: uppercase;
+  display: flex;
+  width: 20%;
+  margin-top: 55px;
+}
+header .wrapper .header__menu .header__menu-btn img {
+  width: 25px;
+  height: 25px;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+header .wrapper .header__menu .header__menu-btn .btn-1 {
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;
+  font-size: 18px;
+  padding: 20px 40px 20px 40px;
+  transform: skew(-20deg);
+  height: 65px;
+  cursor: pointer;
+}
+header .wrapper .header__menu .header__menu-btn .btn-1 p {
+  transform: skew(20deg);
+}
+header .header__content {
+  text-align: center;
+}
+header .header__content h1 {
+  font-size: 160px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.2;
+}
+header .header__content p {
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+}
+header .header__content .btn-1 {
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;
+  font-size: 18px;
+  padding: 20px 40px 20px 40px;
+  transform: skew(-20deg);
+  height: 65px;
+  cursor: pointer;
+  width: 230px;
+  margin: 60px auto;
+}
+header .header__content .btn-1 p {
+  transform: skew(20deg);
+}
+header .header__content .btn-1 p {
+  text-transform: uppercase;
+}
+header .header__content img {
+  margin-top: 120px;
+  padding-bottom: 50px;
+}
+/*# sourceMappingURL=main.css.map */
