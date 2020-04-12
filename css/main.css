@@ -23,12 +23,17 @@
 .btn-mix p {
   transform: skew(20deg);
 }
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+header {
+  max-width: 1920px;
+}
 header .wrapper {
-  background: url("../img/background.png");
+  background: url("../img/background.png") top no-repeat;
 }
 header .wrapper .header__menu {
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 170px;
 }
 header .wrapper .header__menu .header__menu-logo {
@@ -37,13 +42,11 @@ header .wrapper .header__menu .header__menu-logo {
   font-size: 35px;
   margin-top: 65px;
   padding-left: 35px;
-  width: 20%;
   box-sizing: border-box;
 }
 header .wrapper .header__menu .header__menu-center {
   color: #ffffff;
   text-transform: uppercase;
-  width: 50%;
   margin-top: 55px;
 }
 header .wrapper .header__menu .header__menu-center ul {
@@ -62,7 +65,6 @@ header .wrapper .header__menu .header__menu-btn {
   color: #ffffff;
   text-transform: uppercase;
   display: flex;
-  width: 20%;
   margin-top: 55px;
 }
 header .wrapper .header__menu .header__menu-btn img {
@@ -119,5 +121,60 @@ header .header__content .btn-1 p {
 header .header__content img {
   margin-top: 120px;
   padding-bottom: 50px;
+  animation-name: arrow;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes arrow {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.two__section {
+  background-color: #1c1c1c;
+}
+.two__section .wrapper {
+  background-image: url("../img/dron.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.two__section .two__section-head {
+  color: #ffffff;
+  font-size: 60px;
+  padding-top: 160px;
+}
+.two__section p {
+  font-size: 24px;
+  color: #6e6e6e;
+  padding-top: 50px;
+}
+.two__section .btn-1 {
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;
+  font-size: 18px;
+  padding: 20px 40px 20px 40px;
+  transform: skew(-20deg);
+  height: 65px;
+  cursor: pointer;
+  color: #ffffff;
+  width: 210px;
+  margin-top: 60px;
+  margin-bottom: 160px;
+}
+.two__section .btn-1 p {
+  transform: skew(20deg);
+}
+.two__section .btn-1 p {
+  padding-top: 0;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
 }
 /*# sourceMappingURL=main.css.map */

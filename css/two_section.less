@@ -1,0 +1,36 @@
+@import "mixins";
+@import "vars";
+
+.two__section {
+  background-color: #1c1c1c;
+  .wrapper {
+    background-image:  url("@{img}dron.png");
+    background-repeat: no-repeat;
+    background-position:right;
+
+  }
+  .two__section-head{
+    color: #ffffff;
+    font-size: 60px;
+    padding-top:160px
+  }
+  p {
+    font-size: 24px;
+    color: #6e6e6e;
+    padding-top:50px;
+  }
+  .btn-1 {
+    .btn-mix;
+    color:#ffffff;
+    width: 210px;
+    margin-top: 60px;
+    margin-bottom: 160px;
+    p {
+      padding-top:0;
+      color: white;
+      text-transform: uppercase;
+      font-size: 18px;
+    }
+  }
+
+}
